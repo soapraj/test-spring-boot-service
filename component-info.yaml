@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-spring-boot-service
+  description: test springboot
+  annotations:
+    github.com/project-slug: soapraj/test-spring-boot-service
+    backstage.io/techdocs-ref: github:https://github.com/soapraj/test-spring-boot-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: soapraj
